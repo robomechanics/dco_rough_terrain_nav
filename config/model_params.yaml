@@ -1,0 +1,20 @@
+# This file contains parameters for the probabilistic dynamics model
+
+ioDim:
+        stateDim: 9
+        sensingDim: [1,64,64]
+        actionDim: 2
+        predictionDim: 13
+networkSize:
+        CNNSize: [[8,4,4,2,2],[4,4,4,2,2]]
+        inputFCsize: [2048]
+        lstmSize: [1,256]
+        outputFCsize: [256]
+trainParams:
+        dropout: 0.25
+        lr: 1e-5
+        numParticles: 64
+        startingSteps: 1
+        stepIncreaseIters: [100000,250000]
+        batchSize: 16
+

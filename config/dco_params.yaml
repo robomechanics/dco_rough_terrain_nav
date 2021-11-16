@@ -1,0 +1,8 @@
+# This file contains parameters for divergence constrained optimization
+
+lambdas: [0.0,1,10,100]
+iterations: [15,5,5,5,5]
+batchSize: 8
+stepSize: 0.01
+numPredParticles: 8
+divergenceUB: 0.25

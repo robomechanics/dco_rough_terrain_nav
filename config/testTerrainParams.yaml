@@ -1,0 +1,10 @@
+# This file contains terrain parameters used during random environment testing
+terrainParams:
+        AverageAreaPerCell: 0.5
+        cellPerlinScale: 0.5
+        cellHeightScale: 0.9
+        smoothing: 0.7
+        perlinScale: 1.0
+        perlinHeightScale: 0.2
+        flatRadius: [0.5,0.5]
+        blendRadius: 0.5
